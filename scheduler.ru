@@ -3,8 +3,8 @@ import asyncio
 from aiogram import Bot
 from signals import detect_signal
 
-API_TOKEN = os.getenv('8086833488:AAEQu0UA1bTDhXmxc9zAgfVqw7VmTmh9zSM')
-TARGET_ID = os.getenv('5919952205')
+API_TOKEN = os.getenv('TELEGRAM_API_TOKEN')
+TARGET_ID = os.getenv('TELEGRAM_TARGET_ID')
 SYMBOLS = ['BTCUSDT', 'ETHUSDT', 'LINKUSDT']
 TIMEFRAMES = ['1h', '4h']
 
